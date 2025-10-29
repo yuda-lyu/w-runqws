@@ -57,25 +57,25 @@ wo.on('deliver', function(data) {
 let tc1p0=`
 
 //test step1
-node --experimental-modules --es-module-specifier-resolution=node srv.mjs
+node srv.mjs
 
 //test step2
-node --experimental-modules --es-module-specifier-resolution=node scl-c1p0-cm.mjs
+node scl-c1p0-cm.mjs
 
 //test step3
-node --experimental-modules --es-module-specifier-resolution=node scl-c1p0-pd.mjs
+node scl-c1p0-pd.mjs
 
 `
 
 let tc2p1=`
 
 //test step1
-node --experimental-modules --es-module-specifier-resolution=node srv.mjs
+node srv.mjs
 
 //test step2
-node --experimental-modules --es-module-specifier-resolution=node scl-c2p1-cm.mjs
+node scl-c2p1-cm.mjs
 
 //test step3
-node --experimental-modules --es-module-specifier-resolution=node scl-c2p1-pd.mjs
+node scl-c2p1-pd.mjs
 
 `

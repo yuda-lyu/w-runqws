@@ -4,7 +4,6 @@ An operator for websocket in nodejs and browser.
 ![language](https://img.shields.io/badge/language-JavaScript-orange.svg) 
 [![npm version](http://img.shields.io/npm/v/w-runqws.svg?style=flat)](https://npmjs.org/package/w-runqws) 
 [![license](https://img.shields.io/npm/l/w-runqws.svg?style=flat)](https://npmjs.org/package/w-runqws) 
-[![gzip file size](http://img.badgesize.io/yuda-lyu/w-runqws/master/dist/w-runqws-server.umd.js.svg?compression=gzip)](https://github.com/yuda-lyu/w-runqws)
 [![npm download](https://img.shields.io/npm/dt/w-runqws.svg)](https://npmjs.org/package/w-runqws) 
 [![npm download](https://img.shields.io/npm/dm/w-runqws.svg)](https://npmjs.org/package/w-runqws) 
 [![jsdelivr download](https://img.shields.io/jsdelivr/npm/hm/w-runqws.svg)](https://www.jsdelivr.com/package/npm/w-runqws)
@@ -18,14 +17,12 @@ To view documentation or get support, visit [docs](https://yuda-lyu.github.io/w-
 * `w-runqws-client`: for nodejs and browser client
 
 ## Installation
+
 ### Using npm(ES6 module):
-> **Note:** `w-runqws-server` is mainly dependent on `w-converws` and `w-orm-mongodb`.
-
-> **Note:** `w-runqws-client` is mainly dependent on `w-websocket-client` and `w-converws`.
-
 ```alias
 npm i w-runqws
 ```
+
 #### Example for w-runqws-server:
 > **Link:** [[dev source code](https://github.com/yuda-lyu/w-runqws/blob/master/srv.mjs)]
 ```alias
@@ -81,6 +78,7 @@ wo.on('deliver', function(data) {
     console.log(`Server[port:${opt.port}]: deliver`, data)
 })
 ```
+
 #### Example for w-runqws-client:
 > Consumer, **Link:** [[dev source code](https://github.com/yuda-lyu/w-runqws/blob/master/scl-c1p0-cm.mjs)]
 > 
@@ -316,12 +314,12 @@ wo.on('queueChange', function(topic, id, input, output, state) {
 5. `Producer` removes queues in database.
 
 ### In a browser(UMD module):
-> **Note:** `w-runqws-client` does't depend on any package.
 
-[Necessary] Add script for w-runqws-client.
+Add script for w-runqws-client.
 ```alias
 <script src="https://cdn.jsdelivr.net/npm/w-runqws@1.0.28/dist/w-runqws-client.umd.js"></script>
 ```
+
 #### Example for w-runqws-client:
 > Consumer, **Link:** [[dev source code](https://github.com/yuda-lyu/w-runqws/blob/master/web-c1p0-cm.html)]
 > 
