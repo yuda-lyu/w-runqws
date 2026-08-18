@@ -317,7 +317,7 @@ wo.on('queueChange', function(topic, id, input, output, state) {
 
 Add script for w-runqws-client.
 ```alias
-<script src="https://cdn.jsdelivr.net/npm/w-runqws@1.0.34/dist/w-runqws-client.umd.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/w-runqws@1.0.35/dist/w-runqws-client.umd.js"></script>
 ```
 
 #### Example for w-runqws-client:
