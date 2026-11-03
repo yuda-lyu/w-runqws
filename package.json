@@ -1,12 +1,12 @@
 {
   "name": "w-runqws",
-  "version": "1.0.56",
+  "version": "1.0.57",
   "main": "dist/w-runqws-server.umd.js",
   "dependencies": {
-    "w-converws": "^1.0.61",
-    "w-orm-mongodb": "^1.2.18",
+    "w-converws": "^1.0.62",
+    "w-orm-mongodb": "^1.2.19",
     "ws": "^8.16.0",
-    "wsemi": "^1.9.46"
+    "wsemi": "^1.9.48"
   },
   "devDependencies": {
     "w-package-tools": "^1.1.23"
