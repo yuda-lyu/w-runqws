@@ -1,15 +1,15 @@
 {
   "name": "w-runqws",
-  "version": "1.0.64",
+  "version": "1.0.65",
   "main": "dist/w-runqws-server.umd.js",
   "dependencies": {
-    "w-converws": "^1.0.69",
-    "w-orm-mongodb": "^1.2.26",
+    "w-converws": "^1.0.70",
+    "w-orm-mongodb": "^1.2.27",
     "ws": "^8.22.1",
-    "wsemi": "^1.9.57"
+    "wsemi": "^1.9.58"
   },
   "devDependencies": {
-    "w-package-tools": "^1.1.27"
+    "w-package-tools": "^1.1.28"
   },
   "scripts": {
     "test": "mocha --parallel \"test/*.test.mjs\" --timeout 180000",
